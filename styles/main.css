@@ -7209,6 +7209,12 @@ Created using IcoMoon - icomoon.io
 
 .cc-contact-information .cc-contact {
   padding: 8% 0 8% 20%;
+  opacity: 0.1;
+  transition: all linear 0.3s;
+}
+
+.cc-contact-information .cc-contact:hover {
+	opacity:1;
 }
 
 @media (max-width: 767px) {
